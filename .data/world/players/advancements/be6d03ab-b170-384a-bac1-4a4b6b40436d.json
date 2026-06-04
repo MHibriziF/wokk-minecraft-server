@@ -355,17 +355,19 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:cave_spider": "2026-05-30 16:47:32 +0000",
       "minecraft:skeleton": "2026-05-30 14:24:39 +0000",
+      "minecraft:phantom": "2026-06-02 06:50:32 +0000",
+      "minecraft:zombified_piglin": "2026-06-02 06:35:51 +0000",
+      "minecraft:ghast": "2026-05-31 14:55:50 +0000",
+      "minecraft:hoglin": "2026-05-31 19:07:26 +0000",
+      "minecraft:cave_spider": "2026-05-30 16:47:32 +0000",
       "minecraft:piglin": "2026-05-31 14:51:03 +0000",
       "minecraft:magma_cube": "2026-05-31 17:57:29 +0000",
       "minecraft:spider": "2026-05-30 14:57:53 +0000",
       "minecraft:piglin_brute": "2026-05-31 18:52:19 +0000",
       "minecraft:zombie": "2026-05-30 13:55:26 +0000",
       "minecraft:drowned": "2026-05-30 15:08:55 +0000",
-      "minecraft:zombie_villager": "2026-06-01 18:27:20 +0000",
-      "minecraft:ghast": "2026-05-31 14:55:50 +0000",
-      "minecraft:hoglin": "2026-05-31 19:07:26 +0000"
+      "minecraft:zombie_villager": "2026-06-01 18:27:20 +0000"
     },
     "done": false
   },
@@ -3121,9 +3123,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+  "minecraft:recipes/decorations/cartography_table": {
     "criteria": {
-      "has_netherite_upgrade_smithing_template": "2026-06-01 17:26:00 +0000"
+      "has_paper": "2026-06-01 17:23:18 +0000"
     },
     "done": true
   },
@@ -3139,15 +3141,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2026-06-01 17:26:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/obtain_netherite_hoe": {
     "criteria": {
       "netherite_hoe": "2026-06-01 18:42:59 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cartography_table": {
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
     "criteria": {
-      "has_paper": "2026-06-01 17:23:18 +0000"
+      "lightning_rod_with_villager_no_fire": "2026-06-02 07:23:01 +0000"
     },
     "done": true
   },
