@@ -1,0 +1,31 @@
+services:
+  minecraft:
+    image: itzg/minecraft-server:java25
+    container_name: minecraft
+    ports:
+      - "25565:25565"
+
+    environment:
+      EULA: "TRUE"
+      TYPE: "VANILLA"
+      VERSION: "26.1.2"
+      MEMORY: "4G"
+      ONLINE_MODE: "FALSE"
+      ENABLE_AUTOPAUSE: "FALSE"
+      DIFFICULTY: "HARD"
+      VIEW_DISTANCE: "32"
+      SIMULATION_DISTANCE: "16"
+      PAUSE_WHEN_EMPTY_SECONDS: "-1"
+      OVERRIDE_SERVER_PROPERTIES: "TRUE"
+
+    volumes:
+      - ./.data:/data
+
+    restart: unless-stopped
+
+  playit:
+    image: ghcr.io/playit-cloud/playit-agent:0.17
+    network_mode: host
+    environment:
+      - SECRET_KEY=${PLAY_IT_SECRET_KEY}
+    restart: unless-stopped

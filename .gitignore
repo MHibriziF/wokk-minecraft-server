@@ -1,0 +1,19 @@
+.env
+!.env.example
+
+# Server runtime/downloaded files (not world data)
+.data/cache
+.data/logs/
+.data/libraries/
+.data/versions/
+.data/*.jar
+.data/usercache.json
+.data/.rcon-cli.*
+
+# Runtime lock file
+.data/world/session.lock
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
