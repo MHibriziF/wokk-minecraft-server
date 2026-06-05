@@ -496,13 +496,16 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2026-06-04 13:58:51 +0000",
+      "minecraft:pillager": "2026-06-05 10:56:43 +0000",
       "minecraft:skeleton": "2026-05-30 14:11:44 +0000",
       "minecraft:phantom": "2026-06-01 17:53:22 +0000",
+      "minecraft:witch": "2026-06-05 14:07:49 +0000",
       "minecraft:wither_skeleton": "2026-06-04 13:56:00 +0000",
       "minecraft:ghast": "2026-06-04 13:34:08 +0000",
       "minecraft:hoglin": "2026-05-31 18:53:29 +0000",
       "minecraft:cave_spider": "2026-05-30 16:01:53 +0000",
       "minecraft:piglin": "2026-05-31 14:47:43 +0000",
+      "minecraft:zombie_horse": "2026-06-05 17:11:30 +0000",
       "minecraft:enderman": "2026-05-31 14:52:19 +0000",
       "minecraft:magma_cube": "2026-05-31 17:59:23 +0000",
       "minecraft:spider": "2026-05-30 14:23:35 +0000",
@@ -3286,6 +3289,54 @@
   "minecraft:adventure/spear_many_mobs": {
     "criteria": {
       "spear_many_mobs": "2026-06-04 19:09:01 +0000"
+    },
+    "done": true
+  },
+  "paxels:story/diamond_paxel": {
+    "criteria": {
+      "diamond_paxel": "2026-06-05 09:13:34 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/return_scroll": {
+    "criteria": {
+      "has_paper": "2026-06-05 10:06:56 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/blank_scroll": {
+    "criteria": {
+      "has_paper": "2026-06-05 10:06:56 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_scroll": {
+    "criteria": {
+      "has_ender_pearl": "2026-06-05 10:40:15 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/warp_stone": {
+    "criteria": {
+      "has_ender_pearl": "2026-06-05 10:40:15 +0000"
+    },
+    "done": true
+  },
+  "paxels:story/netherite_paxel": {
+    "criteria": {
+      "netherite_paxel": "2026-06-05 10:45:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2026-06-05 14:13:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2026-06-05 14:40:24 +0000"
     },
     "done": true
   },
