@@ -10,6 +10,12 @@
 .data/usercache.json
 .data/.rcon-cli.*
 
+# Fabric auto-generated cache (re-created on server start)
+.data/.fabric/processedMods/
+
+# Downloaded server jars (fetched by Fabric installer, not user-managed)
+.data/.fabric/server/
+
 # Runtime lock file
 .data/world/session.lock
 
